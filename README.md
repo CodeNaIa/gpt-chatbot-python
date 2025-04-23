@@ -1,4 +1,4 @@
-```markdown
+
 # GPT Chatbot in Python 🤖
 
 A simple chatbot built with **Python** and **Flask**, using the **OpenAI GPT-3.5 API** to generate smart responses. This project is a base for learning, building personal assistants, or integrating AI into web services.
