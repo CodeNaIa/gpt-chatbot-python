@@ -1,3 +1,12 @@
+"""
+Entrypoint da aplicação Flask
+"""
+from dotenv import load_dotenv
+import os
+
+# Carrega as variáveis de ambiente antes de qualquer importação
+load_dotenv()
+
 from flask import Flask
 from routes.chat import chat_bp
 from chatbot.config import load_config
