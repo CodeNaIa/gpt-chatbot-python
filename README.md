@@ -28,12 +28,16 @@ This project shows how to:
 ```
 gpt-chatbot-python/
 │
-├── app.py               
-├── chatbot.py           
-├── .env                 
-├── requirements.txt     
 ├── README.md
-└── assets/
+├── app.py
+├── chatbot
+│   ├── __init__.py
+│   ├── config.py
+│   └── core.py
+├── check_env.py
+├── requirements.txt
+└── routes
+    └── chat.py
 ```
 
 ---
