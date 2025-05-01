@@ -3,8 +3,6 @@
 
 A simple chatbot built with **Python** and **Flask**, using the **OpenAI GPT-3.5 API** to generate smart responses. The system is scalable, customizable by context (company, product, audience) and allows contextual and natural responses via AI. Fully integrated via REST API, with the possibility of training with company documents or FAQs.
 
-![Chatbot Demo](./assets/demo.png)
-
 ---
 
 ## 🚀 Project Goal
