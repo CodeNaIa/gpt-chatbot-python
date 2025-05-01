@@ -1,7 +1,7 @@
 
 # GPT Chatbot in Python 🤖
 
-A simple chatbot built with **Python** and **Flask**, using the **OpenAI GPT-3.5 API** to generate smart responses. This project is a base for learning, building personal assistants, or integrating AI into web services.
+A simple chatbot built with **Python** and **Flask**, using the **OpenAI GPT-3.5 API** to generate smart responses. The system is scalable, customizable by context (company, product, audience) and allows contextual and natural responses via AI. Fully integrated via REST API, with the possibility of training with company documents or FAQs.
 
 ![Chatbot Demo](./assets/demo.png)
 
@@ -22,29 +22,27 @@ This project shows how to:
 - Python 3.10+
 - Flask
 - OpenAI API (GPT-3.5)
-- python-dotenv (to manage environment variables)
 
 ---
 
-## 📁 Project Structure (planned)
+## 📁 Project Structure
 
 ```
 gpt-chatbot-python/
 │
-├── app.py               # Flask main app
-├── chatbot.py           # GPT integration logic
-├── .env                 # API key file (not uploaded)
-├── requirements.txt     # Python dependencies
+├── app.py               
+├── chatbot.py           
+├── .env                 
+├── requirements.txt     
 ├── README.md
 └── assets/
-    └── demo.png         # Chatbot demo image or mock
 ```
 
 ---
 
-## 🛠️ How to Use (planned)
+## 🛠️ How to Use
 
-> ⚠️ This project is still in development. These steps show how it will work soon.
+> ⚠️ This project is still in development.
 
 1. Clone the repository:
 
@@ -83,7 +81,7 @@ python app.py
 
 ---
 
-## 💬 Example (mock)
+## 💬 Example 
 
 POST to `/chat` with:
 
@@ -106,11 +104,10 @@ Response:
 ## 📌 Roadmap
 
 - [x] Initial project structure
-- [ ] Flask API setup
-- [ ] GPT-3.5 integration
-- [ ] Optional frontend or mock UI
+- [x] Flask API setup
+- [x] GPT-3.5 integration
 - [ ] Add Dockerfile
-- [ ] Public demo (if possible)
+- [ ] Public demo 
 
 ---
 
@@ -123,7 +120,7 @@ MIT License
 ## 👨‍💻 Author
 
 Made by **Codenaia**  
-[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
+• [GitHub](https://github.com/CodeNaIa)
 
 ---
 
